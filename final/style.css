@@ -180,3 +180,21 @@ button img {
 	height: 16px;
 	margin-right: 8px;
 }
+
+
+
+
+@media (max-width: 650px){
+   .suggestion-logo-grid {
+        margin-top: 25px;
+        display: grid;
+	    grid-template-columns: repeat(3, 120px);
+    }
+
+    a[href*=codepen],
+    a[href*=instagram],
+    a[href*=github],
+    a[href*=linkedin]{
+        display: none;
+    }
+}
